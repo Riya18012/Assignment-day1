@@ -1,0 +1,22 @@
+Question-1
+a = 1
+b = 1
+while(b <= n)
+{
+    a += 1
+    b += 1
+    cout<<"Hi";
+}
+Output---T(n)=O(n)
+
+Question-2 for n=3
+void fun(int n)
+{
+    if(n > 0)
+    {
+        cout<<n:
+        fun(n - 1);
+        cout<<n;
+    }
+}
+Output---3210
